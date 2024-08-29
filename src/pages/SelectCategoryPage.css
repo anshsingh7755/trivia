@@ -1,0 +1,30 @@
+.categoriesPageWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.categoriesPage{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoriesPage .title{
+    text-align: center;
+    margin-block: 1rem;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skipCategory{
+    display: flex;
+}
+
+.skipCategory button{
+    margin: 0.5rem;
+}

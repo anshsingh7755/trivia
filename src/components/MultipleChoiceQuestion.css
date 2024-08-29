@@ -1,0 +1,45 @@
+.MCQ{
+    display: flex;
+    margin-block: 1rem;
+}
+
+.MCQ .numbering{
+    margin-inline: 1rem;
+}
+
+.MCQ .question{
+    font-weight: 600;
+
+}
+
+.MCQ .optionsWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.MCQ .optionsWrapper{
+    margin: 0.5rem;
+}
+
+.SingleOption input{
+    display: none;
+}
+
+.SingleOption button{
+    margin-block: 0.3rem;
+}
+
+.optionButton.resultRight{
+    
+}
+
+.optionButton.resultWrong{
+    background-color: hsl(0, 73%, 63%);
+}
+
+.optionButton:not(.buttonPrimary):disabled{
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: auto;
+}

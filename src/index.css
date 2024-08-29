@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --colorPrimary: hsl(182, 25%, 30%);
+  --colorPrimaryLight: hsl(182, 25%, 40%);
+  --colorPrimaryDark: hsl(182, 25%, 20%);
+  --colorSecondary: hsl(222, 25%, 50%);
+  --colorOnPrimary: White;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*::selection{
+  background-color: var(--colorPrimary);
+  color: var(--colorOnPrimary);
+}
+
+.buttonPrimary {
+  /* margin: 0.5rem; */
+  padding: 0.7rem 1rem;
+  background-color: var(--colorPrimary);
+  color: var(--colorOnPrimary);
+  border: 0;
+  border-radius: 0.3rem;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+.buttonPrimary:hover{
+  background-color: var(--colorPrimaryLight);
+}
+
+.buttonSecondary{
+  /* margin: 0.5rem; */
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--colorPrimary);
+  color: var(--colorPrimary);
+  background-color: inherit;
+  border-radius: 0.3rem;
+  transition: background-color 300ms, color 300ms;
+  cursor: pointer;
+}
+
+.buttonSecondary:hover{
+  background-color: var(--colorPrimary);
+  color: var(--colorOnPrimary);
+}
